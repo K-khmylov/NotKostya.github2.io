@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+
+header{
+    background-image: url(assets/bgc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper{
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0px 20px 0px 20px;
+}
+
+.above_header{
+    padding: 30px 0px 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.adress, .number{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.nav_header{
+   display: flex;
+   justify-content: space-between;
+   padding: 14px 100px 16px 100px ;
+}
+
+.nav_bar, .header_links_border_right, .header_links_border_left_right{
+    border: 1px solid #ffffff;
+    align-items: center;
+    text-align: center;
+    height: 46px;
+    opacity: 1;
+    
+}
+
+.nav_bar{
+    width: 100%;
+    border-left: 0px;
+    border-right: 0px;
+}   
+
+.header_links, .header_links_border_right, .header_links_border_left_right{
+    cursor: pointer;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    transition: color 0.3s ease-in-out !important;
+}
+
+.header_links:hover, .header_links_border_right:hover, .header_links_border_left_right:hover{
+    color: #ffffff8f;
+}
+
+.header_links_border_right{
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+}
+
+.header_links_border_left_right{
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+.header_buttoms{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    padding-top: 596px;
+    padding-bottom: 166px;
+}
+
+.wine_card, .tasting{
+    cursor: pointer;
+    background: #99862A;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 182px;
+    height: 50px;
+    transition: all 0.3s linear !important;
+    opacity: 1;
+}
+
+.wine_card:hover, .tasting:hover{
+    opacity: .9;
+    background: #99872ab2;
+}
+
