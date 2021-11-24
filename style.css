@@ -33,15 +33,6 @@ header{
    padding: 14px 100px 16px 100px ;
 }
 
-/*.nav_bar{
-    border: 1px solid #ffffff;
-    align-items: center;
-    text-align: center;
-    height: 46px;
-    opacity: 1;
-    
-}
-*/
 .nav_bar{
     width: 100%;
     display: flex;
@@ -284,37 +275,6 @@ table{
 }
 
 /*=================================================================REGISTRATION_TASTING======*/
-/*
-.registration_for_tasting{
-    padding-top: 90px;
-    background-color: rgba(40, 40, 40, 1);
-}
-
-fieldset{
-    border: 3px solid #C4C4C4;
-}
-
-.registration_for_tasting_form{
-    font-family: "Playfair Display", sans-serif;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 150%;
-    color: #FFFFFF;
-}
-
-.wrapper_tasting fieldset{
-    display: flex;
-    max-width: 1110px;
-    padding: 0px 20px;
-    margin: 0 auto;
-    text-align: center;
-}
-.hr_registration{
-    width: 140px;
-    margin: 0 auto;
-    border-top: 1px solid #ffffff;
-    padding-top: 90px;
-}*/
 
 .registration_for_tasting{
     background-color: rgba(40, 40, 40, 1);
@@ -415,12 +375,79 @@ fieldset{
     position: absolute;
     width: 1310px;
     padding-left: 50px;
-    
 }    
 
+/*=================================================================FOOTER==================*/
+
+footer{
+    background-color: rgba(153, 132, 49, 1);
+    min-height: 210px;
+}   
+
+.first_footer_block{
+    padding-top: 50px;
+}
+
+.first_footer{
+    padding: 0 94px;
+    border-top: 1px solid #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_links{
+    padding: 20px 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    transition: all 0.3s linear !important;
+}
+
+.footer_links:hover{
+    opacity: .6;
+}
+
+.second_footer{
+    padding: 0 36px;
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+}
 
 
+.second_footer_our_block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
 
+.second_footer_block{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+    padding: 14px 0;
+    flex-grow: 1;
+}
+
+.second_footer_block:last-child{
+    border-right: none;
+}
+
+.social_links_footer{
+    word-spacing: 35px;
+    border-right: 1px solid #FFFFFF;
+    padding: 9px 35px;
+}
+
+.svg_links:hover{
+    fill: #c8a000;
+}
 
 
 
